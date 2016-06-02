@@ -39,7 +39,7 @@ public class Pantalla {
             boolean correcto=false;
             Scanner teclado = new Scanner(System.in);
             do{
-            System.out.println("Introduce una letra: ");
+            System.out.println("Introduce un caracter de [a-z]: ");
             letra = teclado.next();
             if(letra.matches("[a-z].*") && letra.length()== 1){
                 correcto = true;
