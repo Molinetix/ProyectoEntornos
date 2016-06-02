@@ -26,7 +26,7 @@ public class Menu {
         System.out.println("3. Top 3");
         System.out.println("4. Estadísticas jugadores");
         System.out.println("0. Salir");
-        opcion = teclado.nextInt();
+        opcion = teclado.nextInt();//..
         
         switch(opcion){
             case 1:
