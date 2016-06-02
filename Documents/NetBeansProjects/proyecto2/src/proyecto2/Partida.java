@@ -10,7 +10,7 @@ import java.util.*;
 
 /**
  *
- * @author Sergio
+ * @author Sergio  
  */
 public class Partida implements Serializable {
 
