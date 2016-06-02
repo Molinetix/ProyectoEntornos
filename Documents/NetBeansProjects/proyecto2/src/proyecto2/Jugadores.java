@@ -67,7 +67,7 @@ public class Jugadores implements Serializable{
     }
     
  
-
+//lectura de jugadores
     public static void leerJugadores() throws IOException, ClassNotFoundException, NullPointerException {
         ObjectInputStream ol = null;
         ArrayList<Jugadores>ArrayJugadores = new ArrayList<>();
